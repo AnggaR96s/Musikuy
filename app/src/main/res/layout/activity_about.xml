@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:id="@+id/about"
+    tools:context=".ActivityAbout"
+    android:background="@color/colorPrimaryDark" >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/avatar"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/angga"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/About"
+        android:textAlignment="center"
+        android:id="@+id/Text4"
+        android:textSize="24sp"
+        android:textColor="#FFF"
+        android:layout_marginTop="50dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nama"
+        android:textAlignment="center"
+        android:id="@+id/Text5"
+        android:textSize="24sp"
+        android:textColor="#FFF"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/email"
+        android:textAlignment="center"
+        android:id="@+id/Text6"
+        android:textSize="24sp"
+        android:textColor="#FFF"
+        android:layout_marginTop="10dp"/>
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/git"
+        android:layout_below="@+id/Text6"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:paddingTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/git" />
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/fb"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:paddingTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/fb" />
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/tw"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:paddingTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/twitter" />
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/ig"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:paddingTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ig" />
+</LinearLayout>

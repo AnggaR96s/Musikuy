@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Musikuy</string>
+    <string name="music_title">Group Band</string>
+    <string name="detail">Detail</string>
+    <string name="list">List</string>
+    <string name="About">About Me</string>
+    <string name="nama">Angga Romi Saputra</string>
+    <string name="email">angga@linuxmail.org</string>
+    <string name="List_Band">List Group Band</string>
+</resources>
