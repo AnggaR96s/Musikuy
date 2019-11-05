@@ -11,5 +11,6 @@
         android:background="@color/colorPrimaryDark"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:textColor="#FFF"
         tools:listitem="@layout/item_row_music" />
 </RelativeLayout>
